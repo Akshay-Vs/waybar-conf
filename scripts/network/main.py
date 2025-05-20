@@ -34,6 +34,11 @@ class NetworkInterface:
             return None
 
     def get_interface_details(self):
+        if self.interface == None:
+            self.details.ssid = "OFFLINE"
+            self.details.icon = "󰯡"
+            return self.details
+
         # Get IP address
         addrs = psutil.net_if_addrs().get(self.interface, [])
         for addr in addrs:

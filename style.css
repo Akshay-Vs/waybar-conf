@@ -57,6 +57,12 @@
   margin: 5px 0;
 }
 
+#cava {
+  color: @mauve;
+  border-radius: 1rem;
+  margin: 0rem 1rem;
+}
+
 #clock {
   color: @blue;
   border-radius: 0px 1rem 1rem 0px;

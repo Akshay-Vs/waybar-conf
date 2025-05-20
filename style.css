@@ -23,11 +23,13 @@
   color: @lavender;
   border-radius: 1rem;
   padding: 0.4rem;
+  margin: 0px 3px;
   font-size: 10px;
 }
 
 #workspaces button.active {
-  color: @sky;
+  color: @maroon;
+  background-color: @surface2;
   border-radius: 1rem;
 }
 
